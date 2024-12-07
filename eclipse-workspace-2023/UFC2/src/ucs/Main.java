@@ -9,6 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		/* Create the matrix */
+		int section = 1;
         int rows = 7;
         int columns = 7;
         
