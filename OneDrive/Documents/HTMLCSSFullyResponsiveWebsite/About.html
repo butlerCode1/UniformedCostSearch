@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+<style>
+
+body {
+        margin: 0;
+        background-image: url('media/GrafWall.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+}
+
+.Shade {
+        background-color: rgba(0, 0, 0, .5);
+        height: 700px;
+        width: 700px;
+}
+
+ nav {
+        display: flex;
+        flex-direction: row;
+        border: 5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+ }
+ 
+ nav > li {
+        text-decoration: none;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+ }
+
+ li > a {
+       color: white;
+       list-style: none;
+ }
+
+
+ .navbar{
+        display: flex;
+        justify-content: row;
+        background-color: black;
+        text-decoration: none;
+        align-content: center;
+        height: 50px;
+}
+.navbar > li {
+        text-align: center;
+        flex: 1;
+        padding-top: 10px;
+}
+
+.title{
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        align-items: center;
+}
+.title > div {
+        justify-content: center;
+        align-items: center;
+}
+
+.LogoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.Logo {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.Logo > img {
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.Qbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.QuickDescriptNav{
+        margin-top: 100px;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-evenly;
+        list-style: none;
+        padding: 150px;
+}
+
+.QuickDescriptNav > li {
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.QuickDescriptNav > li > a >img {
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.aboutUsContainer {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        padding: 30px;
+        border: groove 5px rgb(46, 174, 46);
+        background-color: rgb(255, 255, 255);
+        margin:  0 50px ;
+}
+
+.box2 > img{
+ max-width: 100%;
+ max-height: 100%;
+}
+</style>
+
+</head>
+<body>
+        <div class="navbar">
+                <li class="homeN"><a href="index.html">Home</a></li>
+                <li class="aboutN"><a href="about.html" taget="_blank">About </a></li>
+                <li class="ContactN"><a href="contact.html" target="_blank">Contact</a></li>
+                <li class="GalleryN"><a href="gallery.html" target="_blank">Gallery</a></li>
+        </div>
+
+        <div class="title">
+                <div><h1>About Us</h1></div>
+        </div>
+
+        <div class="aboutUsContainer">
+                <div class="box1">
+                        <h1>Who We Are</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus labore, iure deleniti eveniet rerum molestias, fuga ullam, at ratione officia eos incidunt fugiat mollitia nobis saepe voluptatem itaque suscipit? Consequatur voluptas similique necessitatibus illum fugit. Ipsa quam, at dignissimos, voluptatum debitis sapiente aut modi asperiores hic excepturi molestias quod quasi! Impedit, temporibus. Numquam ea dolorem porro, voluptas veritatis animi beatae.</p>
+                </div>
+                <div class="box2">
+                        <img src="media/Skogo,Hunger.png" alt="">
+                </div>
+        </div>
+
+        <div class="AboutUsG">
+
+        </div>
+
+</body>
+</html>
